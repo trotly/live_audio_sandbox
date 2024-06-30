@@ -2,7 +2,7 @@
 	"name" : "live_audio_sandbox",
 	"version" : 1,
 	"creationdate" : 3801162005,
-	"modificationdate" : 3801169824,
+	"modificationdate" : 3802291147,
 	"viewrect" : [ 303.0, 806.0, 300.0, 429.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -12,8 +12,12 @@
 		"patchers" : 		{
 			"sandbox1.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
+			}
+,
+			"fade_delay_simple.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"oak.randb.maxpat" : 			{
@@ -27,6 +31,16 @@
 			}
 ,
 			"test_synth_v1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"textdrum.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"textprocess.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -51,25 +65,19 @@
 				"local" : 1
 			}
 ,
-			"fade_delay_simple.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"textdrum.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"textprocess.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"textsynth.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"sandbox2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
 
 		}
 
