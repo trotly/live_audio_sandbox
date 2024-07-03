@@ -2,8 +2,8 @@
 	"name" : "live_audio_sandbox",
 	"version" : 1,
 	"creationdate" : 3801162005,
-	"modificationdate" : 3802291147,
-	"viewrect" : [ 303.0, 806.0, 300.0, 429.0 ],
+	"modificationdate" : 3802800938,
+	"viewrect" : [ 507.0, 383.0, 300.0, 429.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -71,6 +71,11 @@
 			}
 ,
 			"sandbox2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"minor_transpose.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
